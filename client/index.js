@@ -1,5 +1,5 @@
 var buscar = function(name) {
-    $.ajax('/api/igdb?name=' + name).then(function(result) {
+    $.ajax('https://powerful-reaches-60130.herokuapp.com/api/igdb/games?name=' + name).then(function(result) {
         $('#resultado .list-group li').remove();
         $.each(result.body, function(index, game) {
             $('#resultado .list-group').append('<li class="list-group-item">' + game.name + '</li>');
