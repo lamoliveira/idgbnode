@@ -6,7 +6,7 @@ const igdb = require('igdb-api-node').default;
 const client = igdb('356fd165776f7158f97ab77117d2e442');
 
 const app = express();
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 5000;
 
 // API calls
 

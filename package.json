@@ -1,7 +1,7 @@
 {
   "name": "igdb",
   "version": "1.0.0",
-  "description": "",
+  "description": "video game igdb",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -10,9 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.1.1",
     "express": "^4.16.3",
     "igdb-api-node": "^3.1.7",
     "jquery": "^3.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lamoliveira/idgbnode"
   }
 }

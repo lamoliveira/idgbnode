@@ -1,3 +1,5 @@
+
+
 var buscar = function(name) {
     $.ajax('https://powerful-reaches-60130.herokuapp.com:3001/api/igdb/games?name=' + name).then(function(result) {
         $('#resultado .list-group li').remove();
